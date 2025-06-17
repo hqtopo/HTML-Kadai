@@ -18,18 +18,36 @@ body {
 }
 
 /* メンバー */
-.member-section .members {
+.member-section .members {display: flex;
+  align-content: center;
 }
 
-.member {
+.member {background-color: white;
+  padding: 30px;
 }
 
 .member__image img {
 }
 
-.member__name {
+.member__name {background-color: #0f1923;
+  color: white;
 }
 
+
 /* ゲーム */
+.game-section .games {display: flex;
+  padding-top: 10px;
+background-color: #0f1923
+}
+
+.game {background-color: #0f1923
+  
+}
+
+.gamegame__image {
+}
+
+.game__name {padding: 10px;
+}
 
 /* お問い合わせ */
