@@ -8,18 +8,27 @@ body {
 /** ヘッダー */
 
 .header__container {
+  background-color: darkslategrey;
 }
 
 .header__nav {
-  width: 400px;
+  display:flex;
+  margin-left: auto;
+  justify-content:flex-end;
+  align-items: flex-end; 
+  width: 10%;
 }
 
 .nav-item {
+  margin: 10px;
 }
 
 /* メンバー */
-.member-section .members {display: flex;
+.member-section .members {
+  flex-wrap: wrap;
+  display: flex;
   align-content: center;
+
 }
 
 .member {background-color: white;
@@ -27,6 +36,8 @@ body {
 }
 
 .member__image img {
+  width: 200px;
+  margin: 15px;
 }
 
 .member__name {background-color: #0f1923;
