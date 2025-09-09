@@ -43,6 +43,7 @@ body {
 }
 
 .member__name {
+  display: flex;
   background-color: #0f1923;
   color: white;
 }
@@ -50,6 +51,7 @@ body {
 /* ゲーム */
 .game-section .games {
   display: flex;
+  justify-content: space-around;
   padding-top: 10px;
   background-color: #0f1923;
 }
@@ -61,6 +63,8 @@ body {
 
 .gamegame__image {
   background-color: #0f1923;
+  padding: 30px;
+  margin: 50px;
 }
 
 .game__name {
